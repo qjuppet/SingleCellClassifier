@@ -21,12 +21,12 @@ import com.google.gson.JsonSyntaxException;
 
 public class NCConfig {
 
-	public static final String CONFIG_HUMAN_MOUSE_HE_PDX = "Human mouse HE PDX";
+	public static final String CONFIG_HUMAN_MOUSE_HE_PDX = "Human/Mouse Breast 20X H&E PDX";
 	
 	public static final Map<String, NCConfig> CONFIGS = new HashMap<String, NCConfig>();
 	
 	static {
-		CONFIGS.put(CONFIG_HUMAN_MOUSE_HE_PDX, new NCConfig(getFile(NCConfig.class.getClassLoader().getResource("configs/human_mouse_HE_PDX.json"))));
+		CONFIGS.put(CONFIG_HUMAN_MOUSE_HE_PDX, new NCConfig(getFile(NCConfig.class.getClassLoader().getResource("configs/human_mouse_breast_20X_HE_PDX.json"))));
 	}
 	
 	private String segmentationModelName = null;

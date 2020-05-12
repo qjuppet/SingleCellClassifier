@@ -1,8 +1,9 @@
 # Python script
 
-This folder contains script to help you train your own models and analyse your measurements.
+This folder contains Jupyter notebooks to help you train your own models and analyse your measurements.
 
 ## Dependencies version
+
 The scripts have the following dependencies and were tested with the following versions:
 
 - tensorflow: 1.13.1
